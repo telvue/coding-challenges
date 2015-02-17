@@ -1,0 +1,17 @@
+Andy, Barb, Carl, Didi, Earl, and Fran are buying gifts for each other. Draw names for a gift exchange.
+
+Each person buys one gift and receives one gift.
+Nobody buys their own gift.
+Running the solution multiple times should produce different results (giver-receiver pair should not be predictable or identical from run to run).
+INPUT
+None.
+
+OUTPUT
+Formatted as in this example:
+
+Andy buys for Barb
+Barb buys for Carl
+Carl buys for Didi
+Didi buys for Earl
+Earl buys for Fran
+Fran buys for Andy

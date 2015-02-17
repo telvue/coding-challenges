@@ -1,0 +1,1 @@
+The hands of an analog clock occasionally cross as they revolve around the dial. Your task is to write a program that determines how many times the hands cross in one twelve-hour period, and compute a list of those times.

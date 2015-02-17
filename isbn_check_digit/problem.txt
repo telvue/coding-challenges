@@ -1,0 +1,16 @@
+The 2005 edition of the International ISBN Agency's official manual describes how the 13-digit ISBN check digit is calculated.
+
+The calculation of an ISBN-13 check digit begins with the first 12 digits of the thirteen-digit ISBN (thus excluding the check digit itself). Each digit, from left to right, is alternately multiplied by 1 or 3, then those products are summed modulo 10 to give a value ranging from 0 to 9. Subtracted from 10, that leaves a result from 1 to 10. A zero (0) replaces a ten (10), so, in all cases, a single check digit results.
+
+For example, the ISBN-13 check digit of 978-0-306-40615-? is calculated as follows:
+
+= 9×1 + 7×3 + 8×1 + 0×3 + 3×1 + 0×3 + 6×1 + 4×3 + 0×1 + 6×3 + 1×1 + 5×3
+= 9 +  21 +   8 +   0 +   3 +   0 +   6 +  12 +   0 +  18 +   1 +  15
+= 93
+
+93 / 10 = 9 remainder 3
+10 –  3 = 7
+
+Thus, the check digit is 7, and the complete sequence is ISBN 978-0-306-40615-7.
+
+Write a method that will take a string parameter and check if it conforms to the ISBN-13 specification.
