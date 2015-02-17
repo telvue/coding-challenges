@@ -26,12 +26,6 @@ This is called the 'Hamming distance'
 
 The Hamming distance between these two DNA strands is 7.
 
-# Implementation notes
-
-The Hamming distance is only defined for sequences of equal length. This means
-that based on the definition, each language could deal with getting sequences
-of equal length differently.
-
 
 ## Source
 
