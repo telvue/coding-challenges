@@ -26,6 +26,14 @@ This is called the 'Hamming distance'
 
 The Hamming distance between these two DNA strands is 7.
 
+## Determining valid solutions
+
+A solution is only considered valid if all tests pass.
+
+Run tests:
+
+`ruby hamming_test.rb`
+
 
 ## Source
 
